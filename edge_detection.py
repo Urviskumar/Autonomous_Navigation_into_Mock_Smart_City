@@ -46,7 +46,7 @@ def process_video(model, input_video_path, output_video_path):
                 kernel = np.ones((3, 3), np.uint8)
                 edges = cv2.dilate(edges, kernel, iterations=1)
 
-                # Draw the edges on the frame
+                # Draw the edges on the frameROS2_Starter
                 edge_frame[edges != 0] = [0, 0, 255]  # Draw edges in red color
 
             # Write the frame with edges to the output video
@@ -61,7 +61,7 @@ def process_video(model, input_video_path, output_video_path):
 
 def main():
     # Load the trained YOLOv8 model
-    model = YOLO('/home/urvish/yolov8/runs/segment/train12/weights/nano_best_augmented.pt')
+    model = YOLO('--path to your .pt model')
 
     # Paths to the input and output videos
     input_video_path = 'test.mp4'

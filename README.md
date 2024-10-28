@@ -24,4 +24,34 @@ Real-time video segmentation for lane tracking
 
 Traffic sign detection
 
-Indoor navigation and path planning
+Indoor navigation and path planning using Nav2
+
+# Background
+
+In this project, we have presented a ROS-based autonomous navigation system for navigating a mock city. 
+We aimed to replicate the complexities of real-world scenarios. Our setup includes traffic signs, both 
+two-lane and single-lane roads, and the robot's ability to detect other robotic cars, making decisions 
+based on the situation—such as stopping, turning, or moving straight when encountering traffic signs or other robots.
+
+## A Hardware Implementation
+Our robot is a wheeled-based Rosmaster R2 bot equipped with a differential drive system. 
+We integrated the powerful Jetson Orin NX into our bot, and it is also equipped with an IMU, 2D YD LiDAR, 
+and a ZED2 RGB-D camera with RGB-D data capture capability. 
+
+
+## B. Software Implementation
+We utilized the following software libraries and tools:
+
+Yahboom car SDK: Ensures seamless integration with the Yahboom robotic hardware, providing necessary control functions and protocols.
+
+ZED SDK: Provided high-resolution images and depth data, crucial for object detection and distance estimation. 
+Enabled accurate 3D mapping and environmental understanding.
+
+Jetson Orin NX with NVIDIA Jetpack 5.0: Served as the computational backbone, handling intensive data processing and
+ model execution. Optimized for AI applications with GPU acceleration.
+
+YD LiDAR SDK: Facilitated precise distance measurements and environmental mapping, vital for obstacle detection and navigation.
+
+Ubuntu 20: Offered a stable and flexible operating system environment, compatible with ROS2 and other essential libraries.
+
+ROS2 Foxy: Enabled efficient system integration, data handling, and algorithm implementation. Provided a robust framework for robot control and communication.

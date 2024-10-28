@@ -64,7 +64,7 @@ Enabled accurate 3D mapping and environmental understanding.
 
 <p align="justify">When an obstacle is detected, the robot employs an obstacle avoidance algorithm. This involves recalculating its trajectory to balance between avoiding obstacles and moving towards the target position. In unknown environments, the robot's motion planning relies on both sensor data and the relative position of the target to adapt its path.</p>
 
-<<p align="justify">The robot uses a probabilistic roadmap and a dynamic window approach for local planning. This allows it to navigate dynamically changing environments by adjusting its orientation and velocity. When an obstacle is close, the robot decelerates and rapidly changes its orientation to avoid a collision.</p>
+<p align="justify">The robot uses a probabilistic roadmap and a dynamic window approach for local planning. This allows it to navigate dynamically changing environments by adjusting its orientation and velocity. When an obstacle is close, the robot decelerates and rapidly changes its orientation to avoid a collision.</p>
 
 <p align="justify">For global path planning, the robot uses the A* algorithm to determine the most efficient path to the target while integrating data from its sensors. The robot’s map is stored on a server, ensuring data availability even in GPS-denied environments.</p>
 

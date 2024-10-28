@@ -57,8 +57,8 @@ Enabled accurate 3D mapping and environmental understanding.
 * ROS2 Foxy: Enabled efficient system integration, data handling, and algorithm implementation. Provided a robust framework for robot control and communication.</p>
 
 
-# Navigation Strategy
-<p align="justify">In this project, our four-wheeled, nonholonomic Rosmaster R2 bot by Yahboom company utilizes a differential drive system with independently driven wheels. The robot is equipped with LiDAR and an RGB-D camera, which are essential for real-time video segmentation and obstacle detection, facilitating autonomous navigation in a mock city environment.</p>
+## C Navigation Strategy
+<p align="justify">Following the background of our project's aims and objectives, our four-wheeled, nonholonomic system, is equipped with LiDAR and an RGB-D camera, which are essential for real-time video segmentation and obstacle detection, facilitating autonomous navigation in a mock city environment.</p>
 
 <p align="justify">The navigation strategy involves a combination of sensor fusion and path planning algorithms to navigate towards a target while avoiding obstacles. The robot continuously performs real-time video segmentation to track lanes and detect obstacles, including other R2 bots and various barriers.</p>
 
@@ -68,5 +68,7 @@ Enabled accurate 3D mapping and environmental understanding.
 
 <p align="justify">For global path planning, the robot uses the A* algorithm to determine the most efficient path to the target while integrating data from its sensors. The robot’s map is stored on a server, ensuring data availability even in GPS-denied environments.</p>
 
-<p align="justify">This navigation strategy combines advanced robotics and computer vision techniques to ensure the robot navigates as close to the target as possible while avoiding collisions in unknown environments.</p>
+## Current Status
+<p align="justify"> Global path planning is yet to be achieved in this project. However, we have successfully implemented the local planner for obstacle avoidance, real-time video segmentation, and autonomous movement according to traffic signs, such as stopping, turning, and moving straight.</p>
+
 

@@ -55,3 +55,18 @@ Enabled accurate 3D mapping and environmental understanding.
 * Ubuntu 20: Offered a stable and flexible operating system environment, compatible with ROS2 and other essential libraries.
 
 * ROS2 Foxy: Enabled efficient system integration, data handling, and algorithm implementation. Provided a robust framework for robot control and communication.</p>
+
+
+# Navigation Strategy
+<p align="justify">In this project, our four-wheeled, nonholonomic Rosmaster R2 bot by Yahboom company utilizes a differential drive system with independently driven wheels. The robot is equipped with LiDAR and an RGB-D camera, which are essential for real-time video segmentation and obstacle detection, facilitating autonomous navigation in a mock city environment.</p>
+
+<p align="justify">The navigation strategy involves a combination of sensor fusion and path planning algorithms to navigate towards a target while avoiding obstacles. The robot continuously performs real-time video segmentation to track lanes and detect obstacles, including other R2 bots and various barriers.</p>
+
+<p align="justify">When an obstacle is detected, the robot employs an obstacle avoidance algorithm. This involves recalculating its trajectory to balance between avoiding obstacles and moving towards the target position. In unknown environments, the robot's motion planning relies on both sensor data and the relative position of the target to adapt its path.</p>
+
+<<p align="justify">The robot uses a probabilistic roadmap and a dynamic window approach for local planning. This allows it to navigate dynamically changing environments by adjusting its orientation and velocity. When an obstacle is close, the robot decelerates and rapidly changes its orientation to avoid a collision.</p>
+
+<p align="justify">For global path planning, the robot uses the A* algorithm to determine the most efficient path to the target while integrating data from its sensors. The robot’s map is stored on a server, ensuring data availability even in GPS-denied environments.</p>
+
+<p align="justify">This navigation strategy combines advanced robotics and computer vision techniques to ensure the robot navigates as close to the target as possible while avoiding collisions in unknown environments.</p>
+

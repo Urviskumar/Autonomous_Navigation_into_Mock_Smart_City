@@ -9,7 +9,7 @@ Previously, we discussed the crucial role of Visual Odometry (VO) in autonomous 
 GPS-denied environments such as planetary terrains or indoor robotic applications. Here, we implement autonomous 
 navigation using sensor fusion techniques within a mock smart city that we built from scratch.
 
-The main focus is to navigate the robot in indoor environments using built-in sensors such as cameras,
+ The main focus is to navigate the robot in indoor environments using built-in sensors such as cameras,
  LiDAR, and IMU. We have constructed a 3D mock smart city and developed our own custom-trained dataset 
  for lanes and traffic signs. Real-time video segmentation feeds are directly sourced from the ZED2 RGB-D data. 
  All setups have been implemented using ROS2 Foxy. Currently, we are working on implementing the path-planning 
@@ -28,10 +28,10 @@ We have introduced four typical application scenarios:
 
 # Background
 
-In this project, we have presented a ROS-based autonomous navigation system for navigating a mock city. 
+<p align="justify">In this project, we have presented a ROS-based autonomous navigation system for navigating a mock city. 
 We aimed to replicate the complexities of real-world scenarios. Our setup includes traffic signs, both 
 two-lane and single-lane roads, and the robot's ability to detect other robotic cars, making decisions 
-based on the situation—such as stopping, turning, or moving straight when encountering traffic signs or other robots.
+based on the situation—such as stopping, turning, or moving straight when encountering traffic signs or other robots.</p>
 
 ## A Hardware Implementation
 <p align="justify">Our robot is a wheeled-based Rosmaster R2 bot equipped with a differential drive system. 

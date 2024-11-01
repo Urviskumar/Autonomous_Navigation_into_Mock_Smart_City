@@ -26,6 +26,8 @@ We have introduced four typical application scenarios:
 
 * Indoor navigation and path planning using Nav2</P>
 
+<p align="center"><img src="bot6.jpeg" alt="txt_to_img" width="700" height="500"/></a></p>
+
 # Background
 
 <p align="justify">In this project, we have presented a ROS-based autonomous navigation system for navigating a mock city. 
@@ -52,7 +54,7 @@ Enabled accurate 3D mapping and environmental understanding.
 
 * YD LiDAR SDK: Facilitated precise distance measurements and environmental mapping, vital for obstacle detection and navigation.
 
-* Ubuntu 20: Offered a stable and flexible operating system environment, compatible with ROS2 and other essential libraries.
+* Ubuntu 20.04: Offered a stable and flexible operating system environment, compatible with ROS2 and other essential libraries.
 
 * ROS2 Foxy: Enabled efficient system integration, data handling, and algorithm implementation. Provided a robust framework for robot control and communication.</p>
 

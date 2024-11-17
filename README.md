@@ -96,10 +96,12 @@ Enabled accurate 3D mapping and environmental understanding.
   <tr>
     <td><img src="results/val_batch0_labels.jpg" alt="Batch 0 Labels" width="700"/></td>
     <td><img src="results/val_batch0_pred.jpg" alt="Batch 0 Predictions" width="700"/></td>
+    <p><b>Validation Batch 0 Labels</b></p>
   </tr>
   <tr>
     <td><img src="results/val_batch1_labels.jpg" alt="Batch 1 Labels" width="700"/></td>
     <td><img src="results/val_batch1_pred.jpg" alt="Batch 1 Predictions" width="700"/></td>
+    <p><b>Validation Batch 1 Labels</b></p>
   </tr>
 </table>
 

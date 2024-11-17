@@ -70,6 +70,20 @@ Enabled accurate 3D mapping and environmental understanding.
 
 <p align="justify">For global path planning, the robot uses the A* algorithm to determine the most efficient path to the target while integrating data from its sensors. The robot’s map is stored on a server, ensuring data availability even in GPS-denied environments.</p>
 
+## D Results
+
+<p align="center"><img src="MaskF1_curve.png" alt="txt_to_img" width="700" height="500"/></a></p>
+<p align="center"><img src="MaskP_curve.png" alt="txt_to_img" width="700" height="500"/></a></p>
+<p align="center"><img src="MaskPR_curve.png" alt="txt_to_img" width="700" height="500"/></a></p>
+<p align="center"><img src="MaskR_curve.png" alt="txt_to_img" width="700" height="500"/></a></p>
+
+<p align="center"><img src="confucison_matrix_normalized.png" alt="txt_to_img" width="700" height="500"/></a></p>
+<p align="center"><img src="confusion_matrix.png" alt="txt_to_img" width="700" height="500"/></a></p>
+<p align="center"><img src="labels.jpg" alt="txt_to_img" width="700" height="500"/></a></p>
+
+<p align="center"><img src="results.png" alt="txt_to_img" width="1000" height="500"/></a></p>
+
+
 ## Current Status
 <p align="justify"> Global path planning is yet to be achieved in this project. However, we have successfully implemented the local planner for obstacle avoidance, real-time video segmentation, and autonomous movement according to traffic signs, such as stopping, turning, and moving straight.</p>
 

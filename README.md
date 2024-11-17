@@ -77,11 +77,11 @@ Enabled accurate 3D mapping and environmental understanding.
 <p align="center"><img src="MaskPR_curve.png" alt="txt_to_img" width="700" height="500"/></a></p>
 <p align="center"><img src="MaskR_curve.png" alt="txt_to_img" width="700" height="500"/></a></p>
 
-<p align="center"><img src="confucison_matrix_normalized.png" alt="txt_to_img" width="700" height="500"/></a></p>
+<p align="center"><img src="confusison_matrix_normalized.png" alt="txt_to_img" width="700" height="500"/></a></p>
 <p align="center"><img src="confusion_matrix.png" alt="txt_to_img" width="700" height="500"/></a></p>
 <p align="center"><img src="labels.jpg" alt="txt_to_img" width="700" height="500"/></a></p>
 
-<p align="center"><img src="results.png" alt="txt_to_img" width="1000" height="500"/></a></p>
+<p align="center"><img src="results.png" alt="txt_to_img" width="1500" height="500"/></a></p>
 
 
 ## Current Status

@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 from ultralytics import YOLO
+import argparse
 
 def process_video(model, input_video_path, output_video_path):
     # Open the input video file
@@ -59,9 +60,9 @@ def process_video(model, input_video_path, output_video_path):
     cap.release()
     out.release()
 
-def main():
+def main(args):
     # Load the trained YOLOv8 model
-    model = YOLO('--path to your .pt model')
+    model = YOLO(args.model)
 
     # Paths to the input and output videos
     input_video_path = 'test.mp4'
@@ -71,4 +72,14 @@ def main():
     process_video(model, input_video_path, output_video_path)
 
 if __name__ == "__main__":
-    main()
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        '-m', '--model', 
+        type=str,
+        default='yolov8n-seg.pt',
+        required=False, 
+        help="Path to the model"
+    )
+    args = parser.parse_args()
+    main(args)

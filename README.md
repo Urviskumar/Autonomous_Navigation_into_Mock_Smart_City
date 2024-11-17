@@ -94,8 +94,8 @@ Enabled accurate 3D mapping and environmental understanding.
     <td><img src="results/MaskR_curve.png" alt="MaskR" width="700"/></td>
   </tr>
   <tr>
-    <td><b>Validation Batch 0 Labels</b></td>
-    <td><b>Validation Batch 1 Labels</b></td>
+    <td style="text-align: center;"><b>Labels</b></td>
+    <td style="text-align: center;"><b>Predctions</b></td>
   </tr>
   <tr>
     <td><img src="results/val_batch0_labels.jpg" alt="Batch 0 Labels" width="700"/></td>

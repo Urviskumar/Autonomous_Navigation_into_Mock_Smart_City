@@ -72,16 +72,36 @@ Enabled accurate 3D mapping and environmental understanding.
 
 ## D. Results
 
-<p align="center"><img src="results/MaskF1_curve.png" alt="txt_to_img" width="700" height="500"/></a></p>
-<p align="center"><img src="results/MaskP_curve.png" alt="txt_to_img" width="700" height="500"/></a></p>
-<p align="center"><img src="results/MaskPR_curve.png" alt="txt_to_img" width="700" height="500"/></a></p>
-<p align="center"><img src="results/MaskR_curve.png" alt="txt_to_img" width="700" height="500"/></a></p>
-
-<p align="center"><img src="results/confusion_matrix_normalized.png" alt="txt_to_img" width="700" height="500"/></a></p>
-<p align="center"><img src="results/confusion_matrix.png" alt="txt_to_img" width="700" height="500"/></a></p>
-<p align="center"><img src="results/labels.jpg" alt="txt_to_img" width="700" height="500"/></a></p>
-
-<p align="center"><img src="results/results.png" alt="txt_to_img" width="1500" height="500"/></a></p>
+<table>
+  <tr>
+    <td><img src="results/BoxF1_curve.png" alt="BoxF1" width="700"/></td>
+    <td><img src="results/BoxP_curve.png" alt="BoxP" width="700"/></td>
+  </tr>
+  <tr>
+    <td><img src="results/BoxPR_curve.png" alt="BoxPR" width="700"/></td>
+    <td><img src="results/BoxR_curve.png" alt="BoxR" width="700"/></td>
+  </tr>
+  <tr>
+    <td><img src="results/confusion_matrix.png" alt="Confusion Matrix" width="700"/></td>
+    <td><img src="results/confusion_matrix_normalized.png" alt="Normalized Confusion Matrix" width="700"/></td>
+  </tr>
+  <tr>
+    <td><img src="results/MaskF1_curve.png" alt="MaskF1" width="700"/></td>
+    <td><img src="results/MaskP_curve.png" alt="MaskP" width="700"/></td>
+  </tr>
+  <tr>
+    <td><img src="results/MaskPR_curve.png" alt="MaskPR" width="700"/></td>
+    <td><img src="results/MaskR_curve.png" alt="MaskR" width="700"/></td>
+  </tr>
+  <tr>
+    <td><img src="results/val_batch0_labels.jpg" alt="Batch 0 Labels" width="700"/></td>
+    <td><img src="results/val_batch0_pred.jpg" alt="Batch 0 Predictions" width="700"/></td>
+  </tr>
+  <tr>
+    <td><img src="results/val_batch1_labels.jpg" alt="Batch 1 Labels" width="700"/></td>
+    <td><img src="results/val_batch1_pred.jpg" alt="Batch 1 Predictions" width="700"/></td>
+  </tr>
+</table>
 
 https://github.com/Urviskumar/Autonomous_Navigation_into_Mock_Smart_City/blob/main/results/segmentation_result.mp4
 

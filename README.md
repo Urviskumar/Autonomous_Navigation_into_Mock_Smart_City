@@ -105,7 +105,10 @@ Enabled accurate 3D mapping and environmental understanding.
   </tr>
 </table>
 
-<video src="resutls/segmentation_result.mp4" controls width="700"></video>
+### Real-time Video Result
+
+https://github.com/user-attachments/assets/ec784c51-e988-4ae7-b0ae-e84fbf32ae2e
+
 
 ## Current Status
 <p align="justify"> Global path planning is yet to be achieved in this project. However, we have successfully implemented the local planner for obstacle avoidance, real-time video segmentation, and autonomous movement according to traffic signs, such as stopping, turning, and moving straight.</p>

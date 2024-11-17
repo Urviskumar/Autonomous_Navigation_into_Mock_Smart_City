@@ -111,8 +111,6 @@ Enabled accurate 3D mapping and environmental understanding.
 </video>
 
 
-
-
 ## Current Status
 <p align="justify"> Global path planning is yet to be achieved in this project. However, we have successfully implemented the local planner for obstacle avoidance, real-time video segmentation, and autonomous movement according to traffic signs, such as stopping, turning, and moving straight.</p>
 

@@ -26,7 +26,7 @@ We have introduced four typical application scenarios:
 
 * Indoor navigation and path planning using Nav2</P>
 
-<p align="center"><img src="bot6.jpeg" alt="txt_to_img" width="700" height="500"/></a></p>
+<p align="center"><img src="images/bot6.jpeg" alt="txt_to_img" width="700" height="500"/></a></p>
 
 # Background
 
@@ -35,7 +35,7 @@ We aimed to replicate the complexities of real-world scenarios. Our setup includ
 two-lane and single-lane roads, and the robot's ability to detect other robotic cars, making decisions 
 based on the situation—such as stopping, turning, or moving straight when encountering traffic signs or other robots.</p>
 
-## A Hardware Implementation
+## A. Hardware Implementation
 <p align="justify">Our robot is a wheeled-based Rosmaster R2 bot equipped with a differential drive system. 
 We integrated the powerful Jetson Orin NX into our bot, and it is also equipped with an IMU, 2D YD LiDAR, 
 and a ZED2 RGB-D camera with RGB-D data capture capability. </p>
@@ -59,7 +59,7 @@ Enabled accurate 3D mapping and environmental understanding.
 * ROS2 Foxy: Enabled efficient system integration, data handling, and algorithm implementation. Provided a robust framework for robot control and communication.</p>
 
 
-## C Navigation Strategy
+## C. Navigation Strategy
 <p align="justify">Following the background of our project's aims and objectives, our four-wheeled, nonholonomic system, is equipped with LiDAR and an RGB-D camera, which are essential for real-time video segmentation and obstacle detection, facilitating autonomous navigation in a mock city environment.</p>
 
 <p align="justify">The navigation strategy involves a combination of sensor fusion and path planning algorithms to navigate towards a target while avoiding obstacles. The robot continuously performs real-time video segmentation to track lanes and detect obstacles, including other R2 bots and various barriers.</p>
@@ -70,18 +70,18 @@ Enabled accurate 3D mapping and environmental understanding.
 
 <p align="justify">For global path planning, the robot uses the A* algorithm to determine the most efficient path to the target while integrating data from its sensors. The robot’s map is stored on a server, ensuring data availability even in GPS-denied environments.</p>
 
-## D Results
+## D. Results
 
-<p align="center"><img src="MaskF1_curve.png" alt="txt_to_img" width="700" height="500"/></a></p>
-<p align="center"><img src="MaskP_curve.png" alt="txt_to_img" width="700" height="500"/></a></p>
-<p align="center"><img src="MaskPR_curve.png" alt="txt_to_img" width="700" height="500"/></a></p>
-<p align="center"><img src="MaskR_curve.png" alt="txt_to_img" width="700" height="500"/></a></p>
+<p align="center"><img src="results/MaskF1_curve.png" alt="txt_to_img" width="700" height="500"/></a></p>
+<p align="center"><img src="results/MaskP_curve.png" alt="txt_to_img" width="700" height="500"/></a></p>
+<p align="center"><img src="results/MaskPR_curve.png" alt="txt_to_img" width="700" height="500"/></a></p>
+<p align="center"><img src="results/MaskR_curve.png" alt="txt_to_img" width="700" height="500"/></a></p>
 
-<p align="center"><img src="confusion_matrix_normalized.png" alt="txt_to_img" width="700" height="500"/></a></p>
-<p align="center"><img src="confusion_matrix.png" alt="txt_to_img" width="700" height="500"/></a></p>
-<p align="center"><img src="labels.jpg" alt="txt_to_img" width="700" height="500"/></a></p>
+<p align="center"><img src="results/confusion_matrix_normalized.png" alt="txt_to_img" width="700" height="500"/></a></p>
+<p align="center"><img src="results/confusion_matrix.png" alt="txt_to_img" width="700" height="500"/></a></p>
+<p align="center"><img src="results/labels.jpg" alt="txt_to_img" width="700" height="500"/></a></p>
 
-<p align="center"><img src="results.png" alt="txt_to_img" width="1500" height="500"/></a></p>
+<p align="center"><img src="results/results.png" alt="txt_to_img" width="1500" height="500"/></a></p>
 
 
 ## Current Status

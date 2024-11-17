@@ -105,10 +105,7 @@ Enabled accurate 3D mapping and environmental understanding.
   </tr>
 </table>
 
-<video width="320" height="240" controls>
-  <source src="results/segmentation_result.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/Urviskumar/Autonomous_Navigation_into_Mock_Smart_City/blob/e33ba402e01773e2ad457f6bba778453f0cd7070/results/segmentation_result.mp4
 
 
 

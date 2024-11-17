@@ -103,7 +103,12 @@ Enabled accurate 3D mapping and environmental understanding.
   </tr>
 </table>
 
-https://github.com/Urviskumar/Autonomous_Navigation_into_Mock_Smart_City/blob/main/results/segmentation_result.mp4
+<video width="320" height="240" controls>
+  <source src="https://github.com/Urviskumar/Autonomous_Navigation_into_Mock_Smart_City/blob/main/results/segmentation_result.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 
 ## Current Status
 <p align="justify"> Global path planning is yet to be achieved in this project. However, we have successfully implemented the local planner for obstacle avoidance, real-time video segmentation, and autonomous movement according to traffic signs, such as stopping, turning, and moving straight.</p>

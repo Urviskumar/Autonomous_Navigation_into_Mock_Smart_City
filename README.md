@@ -62,6 +62,10 @@ Enabled accurate 3D mapping and environmental understanding.
 ## C. Navigation Strategy
 <p align="justify">Following the background of our project's aims and objectives, our four-wheeled, nonholonomic system, is equipped with LiDAR and an RGB-D camera, which are essential for real-time video segmentation and obstacle detection, facilitating autonomous navigation in a mock city environment.</p>
 
+### Map:
+<p align="center"><img src="images/bot3.jpeg" alt="txt_to_img" width="700" height="500"/></a></p>
+
+
 <p align="justify">The navigation strategy involves a combination of sensor fusion and path planning algorithms to navigate towards a target while avoiding obstacles. The robot continuously performs real-time video segmentation to track lanes and detect obstacles, including other R2 bots and various barriers.</p>
 
 <p align="justify">When an obstacle is detected, the robot employs an obstacle avoidance algorithm. This involves recalculating its trajectory to balance between avoiding obstacles and moving towards the target position. In unknown environments, the robot's motion planning relies on both sensor data and the relative position of the target to adapt its path.</p>

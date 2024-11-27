@@ -113,8 +113,17 @@ Enabled accurate 3D mapping and environmental understanding.
 
 ### Real-time Video Result
 
+**1. Without Grass and Model Buildings**
+
 https://github.com/user-attachments/assets/ec784c51-e988-4ae7-b0ae-e84fbf32ae2e
 
+**2. With Grass and Model Buildings**
+
+https://github.com/user-attachments/assets/18d13427-8458-4658-9b05-c885c4553f73
+
+**3. Edge Detection**
+
+https://github.com/user-attachments/assets/61e61170-8cb0-4649-ad07-956de2df4efe
 
 ## Current Status
 <p align="justify"> Global path planning is yet to be achieved in this project. However, we have successfully implemented the local planner for obstacle avoidance, real-time video segmentation, and autonomous movement according to traffic signs, such as stopping, turning, and moving straight.</p>

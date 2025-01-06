@@ -1,4 +1,4 @@
-# Autonomous Navigation
+# Autonomous Navigation into 3D world
 Autonomous navigation from scratch
 More updates coming soon
 
